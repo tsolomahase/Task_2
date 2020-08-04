@@ -1,0 +1,121 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.Header {
+ padding-bottom: 15%;
+ width: 100%;
+ background-size:cover;
+ background-attachment: absolute;
+ background-image: url("../images/header.jpg");
+}
+header {
+  background-color:#3F4441;
+  height: 60px;
+  font-size: 1.5rem
+  padding: 20px
+}
+header ul {
+text-decoration: none;
+font-size: normal;
+font-style: normal;
+font-variant: normal;
+font-family: sans-serif;
+}
+.left {
+  float: left;
+  padding: 0px;
+  text-align:left;
+  color: white;
+  list-style: none;
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  word-spacing: normal;
+}
+.right {
+  float: right;
+  padding: 0px;
+  text-align:right;
+  color: white;
+  list-style: none;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: normal;
+}
+header li {
+  text-decoration: none;
+  float: left;
+  width: auto;
+  word-spacing: 2rem;
+  padding: 10px;
+  text-align:center;
+  color: white;
+}
+header ul:after {
+}
+.main-header img {
+  margin-top:-5px;
+  padding-top:10%;
+  padding-bottom: 30%;
+  width: 20%;
+  background-size: cover;
+  background-image: url("Images/header.jpg");
+  background-attachment: fixed;
+}
+.About h1 {
+  margin-top: -170px;
+  text-align: center;
+  font-weight: bolder;
+}
+.About {
+  text-align: center;
+  margin:200px;
+  margin-bottom: -10px;
+  padding: 10px;
+}
+.function {
+  width: 100%;
+  position: relative;
+  background-color: lightgrey;
+  padding: 20px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.Function_img {
+  display: flex;
+  justify-content: center;
+}
+.functionii {
+  float: right;
+  padding: 15px;
+  margin: 0;
+  padding: 10px;
+  background-color: lightgrey;
+  width: 20%;
+}
+.footer {
+  background-color:#263f4f;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: table;
+}
+.footer p {
+  color: #fff;
+  display: table-cell;
+  font-size: 1rem;
+  vertical-align: middle;
+  text-align: center;
+}
